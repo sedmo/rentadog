@@ -1,0 +1,37 @@
+/* Override CDN CSS with my own */
+@media screen and (max-width: 1024px) {
+  .mdl-layout__drawer-button {
+    position: inherit;
+  }
+}
+
+#overrides .lob{
+  font-family: 'Lobster';
+}
+
+#overrides h1{
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+#overrides p{
+  padding:10px ;
+  word-wrap: break-word;
+}
+
+/* overrides.dark must stick together */
+#overrides.dark .mdl-layout {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+#overrides .mdl-navigation__link:hover{
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#overrides #map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
